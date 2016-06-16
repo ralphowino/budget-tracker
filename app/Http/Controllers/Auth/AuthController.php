@@ -1,10 +1,10 @@
 <?php
 
-namespace Ralphowino/Budgets\Http\Controllers\Auth;
+namespace Ralphowino\Budgets\Http\Controllers\Auth;
 
-use Ralphowino/Budgets\User;
+use Ralphowino\Budgets\User;
 use Validator;
-use Ralphowino/Budgets\Http\Controllers\Controller;
+use Ralphowino\Budgets\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

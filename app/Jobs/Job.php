@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Jobs;
+namespace Ralphowino\Budgets\Jobs;
 
 use Illuminate\Bus\Queueable;
 

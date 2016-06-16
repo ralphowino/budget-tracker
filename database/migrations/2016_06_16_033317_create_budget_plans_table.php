@@ -14,7 +14,13 @@ class CreateBudgetPlansTable extends Migration
     {
         Schema::create('budget_plans', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('budget_id');
+            $table->integer('budget_point_id');
+            $table->decimal('amount',8,2);
+            $table->text('remarks')->nullable();
+            $table->string('status');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

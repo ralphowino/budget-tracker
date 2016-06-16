@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Ralphowino/Budgets\User::class,
+            'model' => Ralphowino\Budgets\User::class,
         ],
 
         // 'users' => [

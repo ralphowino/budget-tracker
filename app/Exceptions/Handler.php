@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Exceptions;
+namespace Ralphowino\Budgets\Exceptions;
 
 use Exception;
 use Illuminate\Validation\ValidationException;

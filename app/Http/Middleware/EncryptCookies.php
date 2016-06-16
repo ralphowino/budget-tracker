@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Http\Middleware;
+namespace Ralphowino\Budgets\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

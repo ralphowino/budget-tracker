@@ -1,8 +1,8 @@
 <?php
 
-namespace Ralphowino/Budgets\Http\Controllers;
+namespace Ralphowino\Budgets\Http\Controllers;
 
-use Ralphowino/Budgets\Http\Requests;
+use Ralphowino\Budgets\Http\Requests;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller

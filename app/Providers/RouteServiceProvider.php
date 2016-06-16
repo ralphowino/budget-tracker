@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Providers;
+namespace Ralphowino\Budgets\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Ralphowino/Budgets\Http\Controllers';
+    protected $namespace = 'Ralphowino\Budgets\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

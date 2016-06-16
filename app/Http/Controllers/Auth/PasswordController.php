@@ -1,8 +1,8 @@
 <?php
 
-namespace Ralphowino/Budgets\Http\Controllers\Auth;
+namespace Ralphowino\Budgets\Http\Controllers\Auth;
 
-use Ralphowino/Budgets\Http\Controllers\Controller;
+use Ralphowino\Budgets\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

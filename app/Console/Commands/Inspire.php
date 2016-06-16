@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Console\Commands;
+namespace Ralphowino\Budgets\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

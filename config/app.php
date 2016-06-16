@@ -148,13 +148,16 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        Former\FormerServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
-        Ralphowino/Budgets\Providers\AppServiceProvider::class,
-        Ralphowino/Budgets\Providers\AuthServiceProvider::class,
-        Ralphowino/Budgets\Providers\EventServiceProvider::class,
-        Ralphowino/Budgets\Providers\RouteServiceProvider::class,
+        Ralphowino\Budgets\Providers\AppServiceProvider::class,
+        Ralphowino\Budgets\Providers\AuthServiceProvider::class,
+        Ralphowino\Budgets\Providers\EventServiceProvider::class,
+        Ralphowino\Budgets\Providers\RouteServiceProvider::class,
 
     ],
 
@@ -202,6 +205,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'Former' => Former\Facades\Former::class,
     ],
 
 ];

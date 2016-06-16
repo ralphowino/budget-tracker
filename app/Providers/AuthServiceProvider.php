@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Providers;
+namespace Ralphowino\Budgets\Providers;
 
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Ralphowino/Budgets\Model' => 'Ralphowino/Budgets\Policies\ModelPolicy',
+        'Ralphowino\Budgets\Model' => 'Ralphowino\Budgets\Policies\ModelPolicy',
     ];
 
     /**

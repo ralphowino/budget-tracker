@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Http\Middleware;
+namespace Ralphowino\Budgets\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

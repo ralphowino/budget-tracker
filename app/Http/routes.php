@@ -11,10 +11,15 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/about', function () {
     return view('welcome');
 });
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
+Route::group(['middleware' => 'auth'], function () {
+    Route::resource('accounts', 'AccountsController');
+    Route::resource('budgets', 'BudgetsController');
+    Route::resource('points', 'BudgetPointsController');
+    Route::resource('budgets/{bid}/plans', 'BudgetPlansController');
+});

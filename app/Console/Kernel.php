@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Console;
+namespace Ralphowino\Budgets\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

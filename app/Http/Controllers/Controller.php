@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Http\Controllers;
+namespace Ralphowino\Budgets\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

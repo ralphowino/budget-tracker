@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Providers;
+namespace Ralphowino\Budgets\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Ralphowino/Budgets\Events\SomeEvent' => [
-            'Ralphowino/Budgets\Listeners\EventListener',
+        'Ralphowino\Budgets\Events\SomeEvent' => [
+            'Ralphowino\Budgets\Listeners\EventListener',
         ],
     ];
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Http;
+namespace Ralphowino\Budgets\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -24,11 +24,11 @@ class Kernel extends HttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
-            \Ralphowino/Budgets\Http\Middleware\EncryptCookies::class,
+            \Ralphowino\Budgets\Http\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \Ralphowino/Budgets\Http\Middleware\VerifyCsrfToken::class,
+            \Ralphowino\Budgets\Http\Middleware\VerifyCsrfToken::class,
         ],
 
         'api' => [
@@ -44,10 +44,10 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \Ralphowino/Budgets\Http\Middleware\Authenticate::class,
+        'auth' => \Ralphowino\Budgets\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'can' => \Illuminate\Foundation\Http\Middleware\Authorize::class,
-        'guest' => \Ralphowino/Budgets\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \Ralphowino\Budgets\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
     ];
 }

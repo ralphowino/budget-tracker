@@ -14,7 +14,13 @@ class CreateBudgetsTable extends Migration
     {
         Schema::create('budgets', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('user_id');
+            $table->string('name');
+            $table->text('description');
+            $table->date('starts_at');
+            $table->date('ends_at');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

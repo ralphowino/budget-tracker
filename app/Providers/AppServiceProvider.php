@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Providers;
+namespace Ralphowino\Budgets\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

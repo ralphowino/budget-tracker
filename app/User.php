@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets;
+namespace Ralphowino\Budgets;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
@@ -23,4 +23,20 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+
+    public function accounts()
+    {
+        return $this->hasMany(Account::class);
+    }
+
+    public function budgets()
+    {
+        return $this->hasMany(Budget::class);
+    }
+
+    public function budgetPoints()
+    {
+        return $this->hasMany(BudgetPoint::class);
+    }
 }

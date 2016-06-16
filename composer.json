@@ -22,7 +22,7 @@
             "database"
         ],
         "psr-4": {
-            "Ralphowino/Budgets\\": "app/"
+            "Ralphowino\Budgets\\": "app/"
         }
     },
     "autoload-dev": {

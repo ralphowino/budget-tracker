@@ -1,6 +1,6 @@
 <?php
 
-namespace Ralphowino/Budgets\Http\Requests;
+namespace Ralphowino\Budgets\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
